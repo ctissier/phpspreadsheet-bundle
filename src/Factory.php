@@ -1,6 +1,6 @@
 <?php
 
-namespace Yectep\PhpSpreadsheetBundle;
+namespace Ctissier\PhpSpreadsheetBundle;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\StreamedResponse;
 /**
  * Factory class for PhpSpreadsheet objects.
  *
- * @package Yectep\PhpSpreadsheetBundle
+ * @package Ctissier\PhpSpreadsheetBundle
  */
 class Factory {
 

@@ -25,7 +25,7 @@ If you're not using Flex, enable the bundle in your `AppKernel.php` or `bundles.
 ````php
 $bundles = array(
     [...]
-    new Yectep\PhpSpreadsheetBundle\PhpSpreadsheetBundle(),
+    new Ctissier\PhpSpreadsheetBundle\PhpSpreadsheetBundle(),
 );
 ````
 

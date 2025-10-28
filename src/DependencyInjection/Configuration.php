@@ -1,6 +1,6 @@
 <?php
 
-namespace Yectep\PhpSpreadsheetBundle\DependencyInjection;
+namespace Ctissier\PhpSpreadsheetBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -8,7 +8,7 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 /**
  * Configures the class with standard options.
  *
- * @package Yectep\PhpSpreadsheetBundle\DependencyInjection
+ * @package Ctissier\PhpSpreadsheetBundle\DependencyInjection
  */
 class Configuration implements ConfigurationInterface
 {
@@ -21,10 +21,10 @@ class Configuration implements ConfigurationInterface
         if (! method_exists('Symfony\Component\Config\Definition\Builder\TreeBuilder', 'getRootNode')) {
             // This is the pre 4.2 way
             $builder = new TreeBuilder();
-            $builder->root('yectep_phpoffice');
+            $builder->root('ctissier_phpoffice');
         } else {
-            $builder = new TreeBuilder('yectep_phpoffice');
-            $builder->getRootNode($builder, 'yectep_phpoffice');
+            $builder = new TreeBuilder('ctissier_phpoffice');
+            $builder->getRootNode($builder, 'ctissier_phpoffice');
         }
 
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yectep\PhpSpreadsheetBundle\PhpSpreadsheet\Response;
+namespace Ctissier\PhpSpreadsheetBundle\PhpSpreadsheet\Response;
 
 class XlsxResponse extends PhpSpreadsheetResponse
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yectep\PhpSpreadsheetBundle;
+namespace Ctissier\PhpSpreadsheetBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
-use Yectep\PhpSpreadsheetBundle\DependencyInjection\PhpSpreadsheetExtension;
+use Ctissier\PhpSpreadsheetBundle\DependencyInjection\PhpSpreadsheetExtension;
 
 class PhpSpreadsheetBundle extends Bundle
 {

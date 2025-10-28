@@ -1,6 +1,6 @@
 <?php
 
-namespace Yectep\PhpSpreadsheetBundle\DependencyInjection;
+namespace Ctissier\PhpSpreadsheetBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
